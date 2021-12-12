@@ -1,0 +1,20 @@
+/* @media (min-width:992px) {
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        width: 50%;
+        float: left;
+    } 
+}
+@media (min-width:776px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 {
+        width: 50%;
+        float: left;
+    } 
+} */
+
+@media only screen and (max-width: 992px){
+    .case-study-container .row {
+        max-width: 500px;
+        text-align: center;
+        margin: auto;
+    }
+}
