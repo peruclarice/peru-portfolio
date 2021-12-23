@@ -44,7 +44,7 @@
 							-->
 							<div class="intro-caption-wrap caption-animate intro-caption-sm center parallax-4">
 								<div class="intro-caption-holder">
-									<div class="intro-caption row center flx-c">
+									<div class="intro-caption row center flx-c landing-rw">
                                         <div class="col-md-6">
                                             <h1 class="intro-title">Hi,<br> I'm Clarice Peru</h1>
                                             <h2 class="intro-subtitle">A UI/UX Web Developer</h2>

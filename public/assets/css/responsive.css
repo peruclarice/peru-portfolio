@@ -12,9 +12,23 @@
 } */
 
 @media only screen and (max-width: 992px){
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 992px){
     .case-study-container .row {
         max-width: 500px;
         text-align: center;
         margin: auto;
+    }
+    .landing-rw {
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .landing-peru-img {
+        width: 350px;
+        height: 350px;
     }
 }
