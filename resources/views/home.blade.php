@@ -138,7 +138,7 @@
                                     <h3>Building a Digital Banking System</h3>
                                     <h6>Lorem ipsum dolor sit amet consectetur.</h6>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit harum assumenda ex sint consectetur nam nobis quia.</p>
-                                    <a href="#"><button class="btn btn-primary">View Case Study</button></a>
+                                    <a href="/case-study-1"><button class="btn btn-primary">View Case Study</button></a>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                                     <h3>Creating a Learning Management System</h3>
                                     <h6>Lorem ipsum dolor sit amet consectetur.</h6>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit harum assumenda ex sint consectetur nam nobis quia.</p>
-                                    <a href="#"><button class="btn btn-primary">View Case Study</button></a>
+                                    <a href="/case-study-2"><button class="btn btn-primary">View Case Study</button></a>
                                 </div>
                             </div>
                         </div>

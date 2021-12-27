@@ -20,3 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/case-study-2', function () {
+    return view('case-study.qxp');
+});
+Route::get('/case-study-1', function () {
+    return view('case-study.vertexpay');
+});

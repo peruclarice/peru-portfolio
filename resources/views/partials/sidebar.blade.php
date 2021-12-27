@@ -15,12 +15,12 @@
 				================ -->
 				<div id="logo">
 					<!-- logo images for big screens -->
-					<a href="index.html" class="logo-dark"><img src="assets/img/logo-dark.png" alt="logo"></a>
-					<a href="index.html" class="logo-light"><img src="assets/img/logo-light.png" alt="logo"></a>
+					<a href="/" class="logo-dark"><img src="assets/img/logo-dark.png" alt="logo"></a>
+					<a href="/" class="logo-light"><img src="assets/img/logo-light.png" alt="logo"></a>
 
 					<!-- logo images for smaller screens -->
-					<a href="index.html" class="logo-dark-m"><img src="assets/img/logo-dark-m.png" alt="logo"></a>
-					<a href="index.html" class="logo-light-m"><img src="assets/img/logo-light-m.png" alt="logo"></a>
+					<a href="/" class="logo-dark-m"><img src="assets/img/logo-dark-m.png" alt="logo"></a>
+					<a href="/" class="logo-light-m"><img src="assets/img/logo-light-m.png" alt="logo"></a>
 				</div>
 				<!-- End logo -->
 
@@ -70,7 +70,7 @@
 							<!-- Begin menu nav -->
 							<div class="tt-ol-menu-nav">
 								<ul class="tt-ol-menu-list">
-									<li class="menu-item active"><a href="home-full-screen-single-image.html">Home</a></li>
+									<li class="menu-item active"><a href="/">Home</a></li>
 									<li class="menu-item"><a href="about-me-2.html">About Me</a></li>
 									{{-- <li><a href="services.html">Services</a></li> --}}
 									{{-- <li><a href="portfolio-grid-1.html">Case Study</a></li> --}}

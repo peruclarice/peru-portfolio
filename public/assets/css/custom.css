@@ -30,6 +30,9 @@
 	background-color: white;
     color: #0040d8;
 }
+.btn-secondary {
+    color: #333;
+}
 
 .landing-peru-img {
     background-image: url(../img/landing.jpeg);
@@ -67,4 +70,31 @@
 }
 .menu-item:hover {
     padding-left: 2.5rem;
+}
+
+.portfolio-cta-img {
+    background-image: url(../img/portfolio/single/single-1/big/portfolio-single-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;
+}
+.portfolio-cta-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,.12);
+    z-index: 1;
+}
+.persona {
+    background-image: url(../img/portfolio/single/single-1/big/portfolio-single-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
 }
