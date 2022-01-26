@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <filter id="Union_3" x="-10.767" y="-6" width="519.767" height="517.435" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-favicon">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="favicon" clip-path="url(#clip-favicon)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Union_3)">
+      <path id="Union_3-2" data-name="Union 3" d="M-550.56,1691.435V1235.607h160.843q172.286,0,172.286,145.267,0,68.661-49.429,111.1t-132.076,42.436h-48.952v157.028Zm102.673-234.907h40.37q82.011,0,82.011-71.838,0-70.25-82.011-70.249h-40.37Zm355.646-123.843c0-11.572,9.725-20.954,21.723-20.954s21.725,9.382,21.725,20.954-9.727,20.953-21.725,20.953S-92.241,1344.257-92.241,1332.685Zm-133.449-70.342c0-38.849,32.653-70.343,72.931-70.343s72.931,31.494,72.931,70.343-32.651,70.342-72.931,70.342S-225.69,1301.191-225.69,1262.343Z" transform="translate(548.79 -1192)" fill="#0040d8"/>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\CaseStudy\Home;
+use App\Http\Livewire\CaseStudy\VertexPay;
+use App\Http\Livewire\CaseStudy\Qxp;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +20,13 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('home');
-});
-Route::get('/case-study-2', function () {
-    return view('case-study.qxp');
-});
-Route::get('/case-study-1', function () {
-    return view('case-study.vertexpay');
-});
+Route::get('/', Home::class)->name('case-study.home');
+Route::get('/case-study-vertexpay', VertexPay::class)->name('case-study.vertex-pay');
+Route::get('/case-study-qxp', Qxp::class)->name('case-study.qxp');
+
+// Route::get('/case-study-qxp', function () {
+//     return view('case-study.qxp');
+// });
+// Route::get('/case-study-vertexpay', function () {
+//     return view('case-study.vertexpay');
+// });

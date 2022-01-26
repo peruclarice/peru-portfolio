@@ -10,22 +10,28 @@
 
 			<!-- Begin header inner -->
 			<div class="header-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
-
 				<!-- Begin logo 
 				================ -->
 				<div id="logo">
 					<!-- logo images for big screens -->
-					<a href="/" class="logo-dark"><img src="assets/img/logo-dark.png" alt="logo"></a>
-					<a href="/" class="logo-light"><img src="assets/img/logo-light.png" alt="logo"></a>
+					<a href="/" class="logo-dark">
+						<img src="assets/img/logo.svg" alt="logo">
+					</a>
+					<a href="/" class="logo-light">
+						<img src="assets/img/logo.svg" alt="logo">
+					</a>
 
 					<!-- logo images for smaller screens -->
-					<a href="/" class="logo-dark-m"><img src="assets/img/logo-dark-m.png" alt="logo"></a>
-					<a href="/" class="logo-light-m"><img src="assets/img/logo-light-m.png" alt="logo"></a>
+					<a href="/" class="logo-dark-m"><img src="assets/img/logo.svg" alt="logo"></a>
+					<a href="/" class="logo-light-m"><img src="assets/img/logo-white.svg" alt="logo"></a>
 				</div>
 				<!-- End logo -->
 
 				<!-- Begin header attributes (add/remove class "hide" to enable/disable header attributes without removing the code).
 				============================= -->
+				{{-- <a href="#">
+					<h6 class="m-0"><i class="fas fa-envelope mr-3"></i>claricekibii@gmail.com</h6>
+				</a> --}}
 				<div class="header-attributes">
 					<ul>
 
@@ -75,12 +81,12 @@
 									{{-- <li><a href="services.html">Services</a></li> --}}
 									{{-- <li><a href="portfolio-grid-1.html">Case Study</a></li> --}}
 									<li class="menu-item has-children">
-										<a href="#0">Case Study...</a> 
+										<a href="#0">Case Studies...</a> 
 										<ul class="tt-ol-sub-menu">
-											<li><a href="page-pricing-3-col.html">Prices</a></li>
-											<li><a href="search-results.html">Search Results</a></li>
-											<li><a href="page-404.html">404 Error</a></li>
-											<li><a href="page-register-2.html">Register</a></li>
+											<li><a href="/case-study-qxp">Learning Managment System</a></li>
+											<li><a href="/case-study-vertexpay">Digital Banking</a></li>
+											<li><a href="#">E-commerce Store</a></li>
+											<li><a href="#">Digital Branding Agency</a></li>
 											{{-- <li><a href="page-login-2.html">Login</a></li>
 											<li><a href="page-faq-sidebar-right.html">FAQ</a></li>
 											<li><a href="page-dummy-classic-sidebar-right.html">Dummy Page</a></li> --}}
