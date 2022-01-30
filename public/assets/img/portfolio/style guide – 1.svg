@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="2600" viewBox="0 0 1280 2600">
+  <defs>
+    <filter id="theme-container" x="35" y="271" width="1141" height="258" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Ellipse_2" x="623" y="1396" width="252" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="314" y="1396" width="252" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="459" y="1396" width="252" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1" x="44" y="673" width="1202" height="573" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2" x="127" y="1924" width="285" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="136.502" y="2250" width="266.498" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-7"/>
+      <feFlood flood-color="#0707a4" flood-opacity="0.31" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2-2" x="112" y="2065" width="315" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-8"/>
+      <feFlood flood-color="#0707a4"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2-3" x="869" y="1924" width="285" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1-2" x="878.502" y="2250" width="266.498" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-10"/>
+      <feFlood flood-color="#0707a4" flood-opacity="0.31" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-10"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2-4" x="854" y="2065" width="315" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-11"/>
+      <feFlood flood-color="#079dff"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2-5" x="498" y="1924" width="285" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1-3" x="507.502" y="2250" width="266.498" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-13"/>
+      <feFlood flood-opacity="0.259" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-13"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2-6" x="483" y="2065" width="315" height="122" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-14"/>
+      <feFlood flood-color="#fd6c03"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-style_guide_1">
+      <rect width="1280" height="2600"/>
+    </clipPath>
+  </defs>
+  <g id="style_guide_1" data-name="style guide – 1" clip-path="url(#clip-style_guide_1)">
+    <rect width="1280" height="2600" fill="#fff"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(5 17)">
+      <text id="Color_Pallete" data-name="Color Pallete" transform="translate(39 131)" fill="#1d1b1b" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Color Pallete</tspan></text>
+      <text id="theme" transform="translate(39 199)" fill="#433f3f" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Theme</tspan></text>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 2)">
+        <g transform="matrix(1, 0, 0, 1, -5, -19)" filter="url(#theme-container)">
+          <rect id="theme-container-2" data-name="theme-container" width="1123" height="240" rx="24" transform="translate(44 277)" fill="#fff"/>
+        </g>
+        <g id="Group_1" data-name="Group 1" transform="translate(39 258)">
+          <path id="theme-1" d="M24,0H596a0,0,0,0,1,0,0V240a0,0,0,0,1,0,0H24A24,24,0,0,1,0,216V24A24,24,0,0,1,24,0Z" fill="#f1f1f1"/>
+          <rect id="theme-1-2" data-name="theme-1" width="385" height="240" transform="translate(525)" fill="#0707a4"/>
+          <path id="theme-1-3" data-name="theme-1" d="M0,0H179a24,24,0,0,1,24,24V216a24,24,0,0,1-24,24H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(920)" fill="#fd6c03"/>
+          <rect id="theme-1-4" data-name="theme-1" width="271" height="240" transform="translate(408)" fill="#0f0f0f"/>
+          <rect id="theme-1-5" data-name="theme-1" width="92" height="240" transform="translate(854)" fill="#079dff"/>
+        </g>
+        <text id="_45_" data-name="45%" transform="translate(330 332)" fill="#1d1b1b" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">45%</tspan></text>
+        <text id="_20_" data-name="20%" transform="translate(781 332)" fill="#fff" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">20%</tspan></text>
+        <text id="_10_" data-name="10%" transform="translate(1020 332)" fill="#fff" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10%</tspan></text>
+        <text id="_5_" data-name="5%" transform="translate(913 332)" fill="#fff" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">5%</tspan></text>
+        <text id="_20_2" data-name="20%" transform="translate(556 332)" fill="#fff" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">20%</tspan></text>
+      </g>
+      <text id="Brand" transform="translate(48 1311)" fill="#433f3f" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Brand</tspan></text>
+      <g id="brand-circle" transform="translate(293 644)">
+        <g transform="matrix(1, 0, 0, 1, -298, -661)" filter="url(#Ellipse_2)">
+          <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="117" cy="117" r="117" transform="translate(632 1402)" fill="#fd6c03"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -298, -661)" filter="url(#Ellipse_3)">
+          <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="117" cy="117" r="117" transform="translate(323 1402)" fill="#0707a4"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -298, -661)" filter="url(#Ellipse_1)">
+          <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="117" cy="117" r="117" transform="translate(468 1402)" fill="#079dff"/>
+        </g>
+        <text id="_0707a4" data-name="#0707a4" transform="translate(70 822)" fill="#fff" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">#0707A4</tspan></text>
+        <text id="_fd6c03" data-name="#fd6c03" transform="translate(432 822)" fill="#fff" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">#FD6C03</tspan></text>
+        <text id="_079dff" data-name="#079dff" transform="translate(238 868)" fill="#fff" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">#079DFF</tspan></text>
+      </g>
+      <text id="typography" transform="translate(39 594)" fill="#433f3f" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Typography</tspan></text>
+      <g id="typography-box" transform="translate(-24 -194)">
+        <g transform="matrix(1, 0, 0, 1, 19, 177)" filter="url(#Rectangle_1)">
+          <rect id="Rectangle_1-2" data-name="Rectangle 1" width="1184" height="555" rx="24" transform="translate(53 679)" fill="rgba(241,241,241,0.19)"/>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(35 29)">
+          <text id="typography-2" data-name="typography" transform="translate(72 904)" fill="#433f3f" font-size="40" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Typography</tspan></text>
+          <text id="Font-family:_oswald_sans-serif" data-name="Font-family: &quot;oswald&quot;, sans-serif" transform="translate(72 1325)" fill="#433f3f" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.002em"><tspan x="0" y="0">Font-Family: &quot;Oswald&quot;, Sans-Serif</tspan></text>
+          <g id="Group_5" data-name="Group 5" transform="translate(38 -36)">
+            <g id="Group_3" data-name="Group 3" transform="translate(415 -27)">
+              <text id="a" transform="translate(427 1169)" fill="#433f3f" font-size="240" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A</tspan></text>
+              <text id="a-2" data-name="a" transform="translate(582 1169)" fill="#433f3f" font-size="240" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">a</tspan></text>
+            </g>
+            <text id="Font-family:_Segoe_UI_" data-name="Font-family: &quot;Segoe UI&quot;" transform="translate(784 1262)" fill="#433f3f" font-size="32" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">Font-Family: &quot;Segoe UI&quot;</tspan></text>
+            <text id="font_bold_700_" data-name="font bold (700)" transform="translate(842 1314)" fill="#433f3f" font-size="32" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">Font Bold (700)</tspan></text>
+          </g>
+          <g id="Group_4" data-name="Group 4" transform="translate(-11 34)">
+            <text id="h1" transform="translate(83 1003)" fill="#433f3f" font-size="52" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H1</tspan></text>
+            <text id="h2" transform="translate(174 1004)" fill="#433f3f" font-size="42" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H2</tspan></text>
+            <text id="h3" transform="translate(257 1005)" fill="#433f3f" font-size="36" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H3</tspan></text>
+            <text id="h4" transform="translate(325 1006)" fill="#433f3f" font-size="32" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H4</tspan></text>
+            <text id="h5" transform="translate(394 1009)" fill="#433f3f" font-size="25" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H5</tspan></text>
+            <text id="h6" transform="translate(458 1006)" fill="#433f3f" font-size="14" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">H6</tspan></text>
+            <text id="p" transform="translate(494 1011)" fill="#433f3f" font-size="16" font-family="SegoeUI, Segoe UI" letter-spacing="0.002em"><tspan x="0" y="0">P</tspan></text>
+          </g>
+          <text id="The_quick_brown_fox_jumps_over_the_lazy_dog._The_quick_brown_fox_jumps_over_the_lazy_dog._The_quick_brown_fox_jumps_over_the_lazy_dog._The_quick_brown_fox_jumps_over_the_lazy_dog." data-name="The quick brown fox jumps over the lazy dog. The quick
+brown fox jumps over the lazy dog. The quick brown fox
+jumps over the lazy dog. The quick brown fox jumps over
+the lazy dog." transform="translate(72 1114)" fill="#433f3f" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">The Quick Brown Fox Jumps Over The Lazy Dog. The Quick</tspan><tspan x="0" y="32">Brown Fox Jumps Over The Lazy Dog. The Quick Brown Fox</tspan><tspan x="0" y="64">Jumps Over The Lazy Dog. The Quick Brown Fox Jumps Over</tspan><tspan x="0" y="96">The Lazy Dog.</tspan></text>
+        </g>
+      </g>
+      <text id="Buttons" transform="translate(48 1844)" fill="#433f3f" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Buttons</tspan></text>
+      <text id="UI_Components" data-name="UI Components" transform="translate(48 1771)" fill="#1d1b1b" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">UI Components</tspan></text>
+      <g id="Group_19" data-name="Group 19" transform="translate(46 -2)">
+        <g id="Group_15" data-name="Group 15" transform="translate(-145 -111)">
+          <g id="Group_13" data-name="Group 13" transform="translate(170 -22)">
+            <g id="Group_7" data-name="Group 7" transform="translate(60 2048)">
+              <g id="btn-primary">
+                <g transform="matrix(1, 0, 0, 1, -136, -1930)" filter="url(#Rectangle_2)">
+                  <rect id="Rectangle_2-7" data-name="Rectangle 2" width="267" height="74" rx="37" transform="translate(136 1930)" fill="#0707a4"/>
+                </g>
+                <text id="Connect_Now" data-name="Connect Now" transform="translate(42 46)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary" data-name=".btn-primary" transform="translate(0 114)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary</tspan></text>
+            </g>
+            <g id="Group_9" data-name="Group 9" transform="translate(60.502 2368)">
+              <g id="btn-primary-2" data-name="btn-primary">
+                <g data-type="innerShadowGroup">
+                  <path id="Path_1-4" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" fill="#fff"/>
+                  <g transform="matrix(1, 0, 0, 1, -136.5, -2250)" filter="url(#Path_1)">
+                    <path id="Path_1-5" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" transform="translate(136.5 2250)" fill="#fff"/>
+                  </g>
+                </g>
+                <text id="Connect_Now-2" data-name="Connect Now" transform="translate(42 46.032)" fill="#0707a4" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:focus_.btn-primary:focus-visible" data-name=".btn-primary:focus
+.btn-primary:focus-visible" transform="translate(0 104)" fill="#433f3f" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:focus</tspan><tspan x="0" y="27">.btn-primary:focus-visible</tspan></text>
+            </g>
+            <g id="Group_8" data-name="Group 8" transform="translate(58 2204)">
+              <g id="btn-primary-3" data-name="btn-primary" transform="translate(2)">
+                <g transform="matrix(1, 0, 0, 1, -136, -2086)" filter="url(#Rectangle_2-2)">
+                  <g id="Rectangle_2-8" data-name="Rectangle 2" transform="translate(136 2086)" fill="#0707a4" stroke="#0707a4" stroke-width="1">
+                    <rect width="267" height="74" rx="37" stroke="none"/>
+                    <rect x="0.5" y="0.5" width="266" height="73" rx="36.5" fill="none"/>
+                  </g>
+                </g>
+                <text id="Connect_Now-3" data-name="Connect Now" transform="translate(42 46.032)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:hover" data-name=".btn-primary:hover" transform="translate(2 122)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:hover</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Group_17" data-name="Group 17" transform="translate(597 -111)">
+          <g id="Group_13-2" data-name="Group 13" transform="translate(170 -22)">
+            <g id="Group_7-2" data-name="Group 7" transform="translate(60 2048)">
+              <g id="btn-primary-4" data-name="btn-primary">
+                <g transform="matrix(1, 0, 0, 1, -878, -1930)" filter="url(#Rectangle_2-3)">
+                  <rect id="Rectangle_2-9" data-name="Rectangle 2" width="267" height="74" rx="37" transform="translate(878 1930)" fill="#079dff"/>
+                </g>
+                <text id="Connect_Now-4" data-name="Connect Now" transform="translate(42 46)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary-2" data-name=".btn-primary" transform="translate(0 114)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary</tspan></text>
+            </g>
+            <g id="Group_9-2" data-name="Group 9" transform="translate(60.502 2368)">
+              <g id="btn-primary-5" data-name="btn-primary">
+                <g data-type="innerShadowGroup">
+                  <path id="Path_1-6" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" fill="#fff"/>
+                  <g transform="matrix(1, 0, 0, 1, -878.5, -2250)" filter="url(#Path_1-2)">
+                    <path id="Path_1-7" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" transform="translate(878.5 2250)" fill="#fff"/>
+                  </g>
+                </g>
+                <text id="Connect_Now-5" data-name="Connect Now" transform="translate(42 46.032)" fill="#079dff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:focus_.btn-primary:focus-visible-2" data-name=".btn-primary:focus
+.btn-primary:focus-visible" transform="translate(0 104)" fill="#433f3f" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:focus</tspan><tspan x="0" y="27">.btn-primary:focus-visible</tspan></text>
+            </g>
+            <g id="Group_8-2" data-name="Group 8" transform="translate(58 2204)">
+              <g id="btn-primary-6" data-name="btn-primary" transform="translate(2)">
+                <g transform="matrix(1, 0, 0, 1, -878, -2086)" filter="url(#Rectangle_2-4)">
+                  <rect id="Rectangle_2-10" data-name="Rectangle 2" width="267" height="74" rx="37" transform="translate(878 2086)" fill="#079dff"/>
+                </g>
+                <text id="Connect_Now-6" data-name="Connect Now" transform="translate(42 46.032)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:hover-2" data-name=".btn-primary:hover" transform="translate(2 122)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:hover</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Group_18" data-name="Group 18" transform="translate(226 -111)">
+          <g id="Group_13-3" data-name="Group 13" transform="translate(170 -22)">
+            <g id="Group_7-3" data-name="Group 7" transform="translate(60 2048)">
+              <g id="btn-primary-7" data-name="btn-primary">
+                <g transform="matrix(1, 0, 0, 1, -507, -1930)" filter="url(#Rectangle_2-5)">
+                  <rect id="Rectangle_2-11" data-name="Rectangle 2" width="267" height="74" rx="37" transform="translate(507 1930)" fill="#fd6c03"/>
+                </g>
+                <text id="Connect_Now-7" data-name="Connect Now" transform="translate(42 46)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary-3" data-name=".btn-primary" transform="translate(0 114)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary</tspan></text>
+            </g>
+            <g id="Group_9-3" data-name="Group 9" transform="translate(60.502 2368)">
+              <g id="btn-primary-8" data-name="btn-primary">
+                <g data-type="innerShadowGroup">
+                  <path id="Path_1-8" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" fill="#fff"/>
+                  <g transform="matrix(1, 0, 0, 1, -507.5, -2250)" filter="url(#Path_1-3)">
+                    <path id="Path_1-9" data-name="Path 1" d="M39.213,0H227.285C248.942,0,266.5,16.565,266.5,37s-17.556,37-39.213,37H39.213C17.556,74,0,57.435,0,37S17.556,0,39.213,0Z" transform="translate(507.5 2250)" fill="#fff"/>
+                  </g>
+                </g>
+                <text id="Connect_Now-8" data-name="Connect Now" transform="translate(42 46.032)" fill="#fd6c03" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:focus_.btn-primary:focus-visible-3" data-name=".btn-primary:focus
+.btn-primary:focus-visible" transform="translate(0 104)" fill="#433f3f" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:focus</tspan><tspan x="0" y="27">.btn-primary:focus-visible</tspan></text>
+            </g>
+            <g id="Group_8-3" data-name="Group 8" transform="translate(58 2204)">
+              <g id="btn-primary-9" data-name="btn-primary" transform="translate(2)">
+                <g transform="matrix(1, 0, 0, 1, -507, -2086)" filter="url(#Rectangle_2-6)">
+                  <rect id="Rectangle_2-12" data-name="Rectangle 2" width="267" height="74" rx="37" transform="translate(507 2086)" fill="#fd6c03"/>
+                </g>
+                <text id="Connect_Now-9" data-name="Connect Now" transform="translate(42 46.032)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Connect Now</tspan></text>
+              </g>
+              <text id="_.btn-primary:hover-3" data-name=".btn-primary:hover" transform="translate(2 122)" fill="#433f3f" font-size="24" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">.btn-primary:hover</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

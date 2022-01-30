@@ -58,7 +58,8 @@
 										<!-- End intro-description -->
                                         <div class="intro-buttons">
                                             <a href="mailto:claricekibii@gmail.com" class="btn btn-primary margin-top-5 margin-right-10" target="_blank"><i class="fas fa-envelope-open mr-2"></i>Lets Get in Touch</a> 
-                                            <a href="/vpay" class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</a>
+                                            {{-- <a href="#" ></a> --}}
+                                            <button wire:click="index" class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</button>
                                         </div>
                                         </div>
                                         <div class="col-md-6">
@@ -139,6 +140,12 @@
 							<div class="col-md-8">
 								<h6>The following are my recent highlights of what projects I've been involved, either as in-house developer and out sourced and finally at what capacity</h6>
 								{{-- <p>Nunc euismod ipsum vel metus rhoncus, a accumsan sapien mollis. Donec malesuada lacus rhoncus ipsum dignissim, sed fringilla orci faucibus. Proin non odio dui. Donec ut tristique dolor, at interdum sem. Quisque finibus viverra lectus vitae pulvinar.</p> --}}
+
+                                <form wire:submit.prevent="save">
+                                    <input wire:model="photo" type="file" name="" id="">
+                                    @error('photo') <span class="error">{{ $message }}</span> @enderror
+                                    <button type="submit" class="btn btn-primary">Upload Test File</button>
+                                </form>
 							</div> 
 						</div> 
 
@@ -158,7 +165,7 @@
                                     <h3>Building a Digital Banking System</h3>
                                     <h6>Creating a digital banking system</h6>
                                     <p>A Fully Integrated Banking System, All At The Palm Of Your Hands. With Just One Click And You Are In.</p>
-                                    <a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>View Vertex Pay Case Study</button></a>
+                                    <a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Vertex Pay Case Study</button></a>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +183,7 @@
                                     <h3>Creating a Learning Management System</h3>
                                     <h6>Connect, Collaborate & Learn</h6>
                                     <p>Qxp maximizes productivity through reliable tools -tailor-made for meeting and learning,anytime, anywhere, Across any device.</p>
-                                    <a href="/case-study-qxp"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>View QXP Case Study</button></a>
+                                    <a href="/case-study-qxp"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>QXP Case Study</button></a>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +201,7 @@
                                     <h3>Rebranding a Digital Branding Agency</h3>
                                     <h6>Working on this Case Study</h6>
                                     <p>Rebranding a digital branding agency </p>
-                                    <a href="/case-study-birch"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>View Birch Case Study</button></a>
+                                    <a href="/case-study-birch"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Birch Agency Case Study</button></a>
                                 </div>
                             </div>
                         </div>

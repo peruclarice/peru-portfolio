@@ -93,7 +93,7 @@
 										</ul>
 									</li>
 									{{-- <li><a href="blog-list-classic.html">Blog</a></li> --}}
-									<li class="menu-item"><a href="contact.html">Contact Me</a></li>
+									<li class="menu-item"><a href="mailto:claricekibii@gmail.com">Contact Me</a></li>
 								</ul>
 							</div>
 							<!-- End menu nav -->
@@ -109,12 +109,13 @@
 									<!-- Begin social buttons -->
 									<div class="social-buttons">
 										<ul>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Dribbble"><i class="fab fa-dribbble"></i></a></li>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Behance"><i class="fab fa-behance"></i></a></li>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-											<li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/clarice-jeberur-283054169/" class="btn btn-white btn-link" target="_blank" title="Follow me on Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+											<li><a href="https://www.facebook.com/clarice.peru" class="btn btn-white btn-link" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="https://www.instagram.com/peruclarice/" class="btn btn-white btn-link" target="_blank" title="Follow me on Instagram"><i class="fab fa-instagram"></i></a></li>
+											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Dribbble"><i class="fab fa-dribbble"></i></a></li> --}}
+											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Behance"><i class="fab fa-behance"></i></a></li> --}}
+											
+											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i></a></li> --}}
 										</ul>
 									</div>
 									<!-- End social buttons -->

@@ -199,14 +199,19 @@
     <div class="py-5 mb-4">
         <h3>Persona</h3>
 		<h6>Creating a persona was viatle in the design and development stage. By having a specific audience in mind, it helped me as a developer to create a system tht would cater to the vast majority of possible users.</h6>
-        <button class="btn btn-primary">Download Persona PDF <i class="fas fa-download ml-2"></i></button>
+        {{-- <button class="btn btn-primary">Download Persona PDF <i class="fas fa-download ml-2"></i></button> --}}
         <div class="row">
             <div class="col-md-6">
-                <div class="persona"></div>
-                
+                {{-- <div class="persona"></div> --}}
+                <div class="p-4">
+					<img src="{{asset('assets/img/portfolio/persona – 1.png')}}" alt="">
+				</div>
             </div>
             <div class="col-md-6">
-                <div class="persona"></div>
+                {{-- <div class="persona"></div> --}}
+				<div class="p-4">
+					<img src="{{asset('assets/img/portfolio/persona – 2.png')}}" alt="">
+				</div>
                 {{-- <button class="btn btn-secondary">Download Persona PDF <i class="fas fa-download ml-2"></i></button> --}}
             </div>
         </div>
@@ -231,10 +236,12 @@
     <div class="py-5 mb-4">
         <h3>Style Guide</h3>
         <h6>The following is the guide I used to develop this particular system.</h6>
-        <button class="btn btn-primary">Download Style Guide PDF <i class="fas fa-download ml-2" style="margin-left: .5rem;"></i></button>
+        {{-- <button class="btn btn-primary">Download Style Guide PDF <i class="fas fa-download ml-2" style="margin-left: .5rem;"></i></button> --}}
         <div>
-            <div class="persona" style="min-height: 100vh;"></div>
-            {{-- <img src="{{asset('assets/img/portfolio/single/single-1/portfolio-single-3.jpg')}}" alt="" style="width: 100%; height: 100%; object-fit: cover;"> --}}
+            {{-- <div class="persona" style="min-height: 100vh;"></div> --}}
+			<div class="p-4" style="text-align: center;">
+				<img src="{{asset('assets/img/portfolio/style guide – 1.png')}}" alt="" style="max-width: 450px; width: 100%;">
+			</div>
             
         </div>
     </div>

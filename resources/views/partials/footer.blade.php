@@ -29,10 +29,10 @@
                     <ul class="f-block-links">
                         <li><a href="/">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Case Studies #1 (Learning Managment System)</a></li>
-                        <li><a href="">Case Studies #2 (Digital Banking)</a></li>
-                        <li><a href="">Case Studies #3 (E-commerce Store)</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/case-study-qxp">Case Studies #1 (Learning Managment System)</a></li>
+                        <li><a href="/case-study-vertexpay">Case Studies #2 (Digital Banking)</a></li>
+                        <li><a href="#">Case Studies #3 (E-commerce Store)</a></li>
+                        <li><a href="mailto:claricekibii@gmail.com">Contact</a></li>
                     </ul>
                 </div>
                 <!-- End footer block -->
@@ -45,10 +45,10 @@
                     <h4 class="f-block-heading">Follow</h4>
                     <ul class="f-block-links">
                         <li><a href="https://www.facebook.com/clarice.peru" target="_blank">Facebook</a></li>
-                        <li><a href="#" target="_blank">Twitter</a></li>
+                        {{-- <li><a href="#" target="_blank">Twitter</a></li> --}}
                         <li><a href="https://www.instagram.com/peruclarice/" target="_blank">Instagram</a></li>
-                        <li><a href="#" target="_blank">Behance</a></li>
-                        <li><a href="#" target="_blank">Dribbble</a></li>
+                        {{-- <li><a href="#" target="_blank">Behance</a></li> --}}
+                        {{-- <li><a href="#" target="_blank">Dribbble</a></li> --}}
                     </ul>
                 </div>
 
@@ -62,7 +62,7 @@
                     <div class="f-block-text">
                         <p>Kilimani, <br> Nairobi, Kenya</p>
                         <p>+254 714 739 030<br>
-                        <a href="mailto:info@youremail.com">claricekibii@gmail.com</a></p>
+                        <a href="mailto:claricekibii@gmail.com">claricekibii@gmail.com</a></p>
                     </div>
                 </div>
                 <!-- End footer block -->
