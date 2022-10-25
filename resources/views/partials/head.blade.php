@@ -31,8 +31,10 @@
 <meta name="theme-color" content="#ffffff"> --}}
 
 <!-- Favicon (http://www.favicon-generator.org/) -->
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+<link rel="shortcut icon" href="{{asset('assets/img/peru_favicon.svg')}}" type="image/x-icon">
+<link rel="icon" href="{{asset('assets/img/peru_favicon.svg')}}" type="image/x-icon">
 
 <!-- Google fonts (https://www.google.com/fonts) -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet"> <!-- Global font -->

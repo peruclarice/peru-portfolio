@@ -1,4 +1,4 @@
-<div class="footer-inner">
+<div class="footer-inner" style="position: relative; z-index: 5;">
     <div class="footer-container tt-wrap">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">

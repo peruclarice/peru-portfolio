@@ -66,7 +66,13 @@
 										<div class="ph-desc-inner">
 											A Fully Integrated Banking System, All At The Palm Of Your Hands. With Just One Click And You Are In.
 										</div>
+										<div class="mt-2">
+										<a href="https://vertexpay.co/">
+										<button class="btn btn-primary btn-vertex"><i class="fas fa-eye mr-3"></i>View Nolla Bank Website</button>
+										</a>
+										</div>
 									</div> 
+
 									<!-- End page header description -->
 								</div>
 								

@@ -76,6 +76,11 @@
 										<div class="ph-desc-inner">
 											Qxp maximizes productivity through reliable tools -tailor-made for meeting and learning,anytime, anywhere, Across any device.
 										</div>
+										<div class="mt-2">
+										<a href="https://qxp.global/">
+										<button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>View QXP Website</button>
+										</a>
+										</div>
 									</div> 
 								</div>
 								

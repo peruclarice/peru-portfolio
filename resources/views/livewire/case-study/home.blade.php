@@ -42,9 +42,16 @@
 							-->
 							<div class="intro-caption-wrap caption-animate intro-caption-sm center parallax-4">
 								<div class="intro-caption-holder">
+								
 									<div class="intro-caption row center flx-c landing-rw">
+									<div class="circle-container">
+										<img src="./assets/images/curves.svg" alt="curves">
+										<div class="cricle-1"></div>
+										<div class="circle-2 circle-animation-bottom-top"></div>
+										<div class="circle-3 circle-animation-top-bottom"></div>
+									</div>
                                         <div class="col-md-6">
-                                            <h1 class="intro-title">Hi,<br> I'm Clarice <span class="peru-cta">@include('svg.logo-white')</span></h1>
+                                            <h1 class="intro-title">Hey,<br> I'm Clarice <span class="peru-cta">@include('svg.logo-white')</span></h1>
                                             <h2 class="intro-subtitle">A UI/UX Web and Frontend Developer</h2>
 
 										<!-- Begin intro description (recommended max 170 characters!) 
@@ -52,31 +59,32 @@
 										<div class="intro-description" style="text-shadow: none;">
 											Check out my case studies to have an in depth look at my design and development concepts.
 										</div>
-										{{-- <div class="intro-description" style="text-shadow: none;">
+										 <!-- <div class="intro-description" style="text-shadow: none;">
 											I am UX developer with a heart for social justice and women empowerment. My 2 years of experience in developing websites for multiple NGOs and Social justice start-ups has offered me a platform I did not know I needed. To progress my UX design skills while attending to my need to speak out for social injustices all over the county. From the need to empower girls in the field of Technology to the re-branding of online businesses in order to increase their users tenfold, my projects have been used to emulate some of these passions. Passions that are near and dear to my heart.
-										</div> --}}
+										</div>  -->
 										<!-- End intro-description -->
                                         <div class="intro-buttons">
                                             <a href="mailto:claricekibii@gmail.com" class="btn btn-primary margin-top-5 margin-right-10" target="_blank"><i class="fas fa-envelope-open mr-2"></i>Lets Get in Touch</a> 
-                                            {{-- <a href="#" ></a> --}}
-                                            <button wire:click="index" class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</button>
+                                            <a href="{{asset('assets/img/CLARICE_PERU_UX_RESUME.pdf')}}" download>
+												<button class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</button>
+											</a>
                                         </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="landing-peru-container">
-                                                {{-- <img src="{{asset('assets/img/landing.jpeg')}}" alt=""> --}}
+                                                <!-- {{-- <img src="{{asset('assets/img/landing.jpeg')}}" alt=""> --}} -->
                                                 <div class="landing-peru-img"></div>
                                             </div>
                                         </div>
 
 									</div> <!-- /.intro-caption -->
-									{{-- <div class="text-center scroll-more-container">
+									 <!-- <div class="text-center scroll-more-container">
 										<a href="#">
 											<div class="scroll-more">
 												<div><p style="margin: 0; font-weight: 600;">Scroll More <br> <i class="fas fa-arrow-down"></i></p></div>
 											</div>
 										</a>
-									</div> --}}
+									</div>  -->
 								</div> <!-- /.intro-caption-holder -->
 								
 							</div>
@@ -108,7 +116,7 @@
 					<div class="tt-heading-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
 						
 						<div class="row">
-							{{-- <div class="col-md-12">
+							<!-- <div class="col-md-12">
 								<h1 class="tt-heading-title" style="max-width: initial;">Latest Projects</h1>
 								<div class="tt-heading-subtitle" style="max-width: initial;">Please see my recent work</div>
 								<div class="zig-zag-separator">
@@ -118,11 +126,11 @@
 									<span></span>
 								</div>
 								<h6>The following are my recent highlights of what projects I've been involved, either as in-house developer and out sourced and finally at what capacity</h6>
-							</div> --}}
-							<div class="col-md-4">
+							</div> -->
+							<div class="col-md-12">
 								
-								<h1 class="tt-heading-title">Latest Projects</h1>
-								<div class="tt-heading-subtitle">Please see our recent work</div>
+								<h1 class="tt-heading-title">My Latest Projects</h1>
+								<div class="tt-heading-subtitle">Please see my recent works</div>
 								
 								<!-- Begin zig-zag separator 
 								============================= 
@@ -137,22 +145,55 @@
 								</div>
 
 							</div> 
-							<div class="col-md-8">
-								<h6>The following are my recent highlights of what projects I've been involved, either as in-house developer and out sourced and finally at what capacity</h6>
-								{{-- <p>Nunc euismod ipsum vel metus rhoncus, a accumsan sapien mollis. Donec malesuada lacus rhoncus ipsum dignissim, sed fringilla orci faucibus. Proin non odio dui. Donec ut tristique dolor, at interdum sem. Quisque finibus viverra lectus vitae pulvinar.</p> --}}
-
-                                <form wire:submit.prevent="save">
-                                    <input wire:model="photo" type="file" name="" id="">
-                                    @error('photo') <span class="error">{{ $message }}</span> @enderror
-                                    <button type="submit" class="btn btn-primary">Upload Test File</button>
-                                </form>
-							</div> 
 						</div> 
 
 					</div> <!-- /.tt-heading-inner -->
 				</div>
 				<!-- End tt-heading -->
                 <div class="case-study-container case-study-grid">
+
+				<div style="padding: 2rem 1rem;">
+                        <div class="row flx flx-c" style="align-items: center;">
+                            <div class="col-md-6">
+                                <div class="case-study-img-1">
+									<div class="w-100 h-100">
+										@include('svg.nolla-cta')
+									</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h3>Designing a Mobile Digital Banking Platform</h3>
+                                    <h6>Nolla Bank</h6>
+                                    <p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
+                                    <a href="{{asset('assets/img/portfolio/nolla/website landing page.pdf')}}" download>
+										<button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</button>
+									</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+				<div style="padding: 2rem 1rem;">
+                        <div class="row flx flx-c" style="align-items: center;">
+                            <div class="col-md-6">
+                                <div class="case-study-img-1" style="height:600px;">
+									<div class="w-100 h-100">
+										@include('svg.pym-cta')
+									</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <h3>Designing a Health Tech Mobile Platform</h3>
+                                    <h6>Plan Your Meds</h6>
+                                    <p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
+                                    <!-- <a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</button></a> -->
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
                     <div style="padding: 2rem 1rem;">
                         <div class="row flx flx-c">
                             <div class="col-md-6">
@@ -175,7 +216,8 @@
                         <div class="row flx flx-c">
                             <div class="col-md-6">
                                 <div class="case-study-img-1">
-                                    <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-2.png')}}" alt=""> 
+								<img src="{{asset('assets/img/portfolio/QXP/portfolio-list-2.png')}}" alt=""> 
+                                    <!-- <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-2.png')}}" alt="">  -->
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -652,7 +694,7 @@
 							<div class="tt-heading tt-heading-xxlg">
 								<div class="tt-heading-inner">
 									<h1 class="tt-heading-title">Do You Feel Excited?</h1>
-									<div class="tt-heading-subtitle">Interested in working with us?</div>
+									<div class="tt-heading-subtitle">Interested in working with me?</div>
 									
 									<!-- Begin zig-zag separator 
 									============================= 

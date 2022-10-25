@@ -15,10 +15,12 @@
 				<div id="logo">
 					<!-- logo images for big screens -->
 					<a href="/" class="logo-dark">
-						<img src="assets/img/logo.svg" alt="logo">
+						<!-- <img src="assets/img/logo.svg" alt="logo"> -->
+						<img src="assets/img/peru_logo.svg" alt="">
 					</a>
 					<a href="/" class="logo-light">
 						<img src="assets/img/logo.svg" alt="logo">
+						<!-- <img src="assets/img/peru_logo.svg" alt="logo"> -->
 					</a>
 
 					<!-- logo images for smaller screens -->
