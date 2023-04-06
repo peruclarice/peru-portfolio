@@ -36,7 +36,7 @@
 			* Use class "no-margin-top" if needed. 
 			-->
 			<section id="footer" class="footer-dark no-margin-top">
-			<div class="circle-container" style="z-index:1; over-flow: hidden;">
+			<div class="circle-container" style="z-index:1; height: calc(100% - 64px); overflow: hidden;">
 				<img src="./assets/images/curves.svg" alt="curves">
 				<div class="cricle-1"></div>
 				<div class="circle-2 circle-animation-bottom-top"></div>

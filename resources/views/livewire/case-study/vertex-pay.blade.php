@@ -20,7 +20,7 @@
 					* Aditional color classes you can use: "cover-color", "cover-light", "cover-red", "cover-pink", "cover-purple", "cover-green", "cover-blue", "cover-yellow" or "cover-brown" to set cover background color (note: class "cover-color" = template main color).
 					* Use class "cover-gradient-dark", "cover-gradient-light" or "cover-gradient-color" to enable cover gradient background.
 					-->
-					<div class="cover cover-opacity-8 cover-gradient-light"></div>
+					<div class="cover cover-opacity-8 cover-red cover-gradient-dark"></div>
 					
 				</div>
 				<!-- End page header image -->
@@ -52,7 +52,7 @@
 									* Use classes "zig-zag-xs", "zig-zag-sm", "zig-zag-lg" or "zig-zag-xlg" to set separator size. 
 									* Use classes "zig-zag-light" or "zig-zag-dark" to change zig-zag separator style.
 									-->
-									<div class="zig-zag-separator zig-zag-lg">
+									<div class="zig-zag-separator zig-zag-sm">
 										<span></span>
 										<span></span>
 										<span></span>
@@ -67,8 +67,9 @@
 											A Fully Integrated Banking System, All At The Palm Of Your Hands. With Just One Click And You Are In.
 										</div>
 										<div class="mt-2">
-										<a href="https://vertexpay.co/">
-										<button class="btn btn-primary btn-vertex"><i class="fas fa-eye mr-3"></i>View Nolla Bank Website</button>
+										<a href="https://vertexpay.co/" class="btn btn-primary btn-vertex"><i class="fas fa-eye mr-3"></i>View Vertex Pay Website</a>
+										<a href="https://github.com/peruclarice/vertexPay" class="btn btn-light text-dark" style="box-shadow: none;">
+											<img src="{{asset('assets/img/logo/github.svg')}}" class="object-fit-contain w-24 h-24 mx-2" alt="github"> Open Source Code
 										</a>
 										</div>
 									</div> 
@@ -108,12 +109,9 @@
 			</section>
 			<!-- End page header -->
 
-			{{-- <section>
-				<div class="portfolio-cta-img" style="background-image: url(assets/img/portfolio/vertex-pay/cta-1.png);">
-				</div>
-			</section> --}}
-
 <section class="container">
+
+	<!-- Overview -->
     <div class="py-5 mt-5 mb-4">
 		<h3>Overview:</h3>
 		<div class="zig-zag-separator zig-zag-sm">
@@ -123,30 +121,49 @@
 			<span></span>
 		</div>
         <div class="row flx-c">
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-12 col-sm-12">
 				<p>A Digitaly Based Financial Banking System that would break away from the traditional way of banking of long ques and unnecessary time lags, by eliminating the middleman. This would make it more convenient as a consumer/client and enabling faster bank transfers, pay rollouts, utility payments and further more banking needs, all with the click of one button.</p>
 
             </div>
-            <div class="col-md-5 col-sm-12">
-                <ul style="list-style: none; padding: 0;">
-                    <li><h6><b>Client:</b><span class="text-primary mx-2" style="font-weight: 200">Vertex Pay LTD</span></h6></li>
-                    <li><h6><b>Industry:</b><span class="text-primary mx-2" style="font-weight: 200;">Financial Industry</span></h6></li>
-                    <li><h6><b>Role: </b><span class="text-primary mx-2" style="font-weight: 200;">UI/UX and Frontend Web Development</span></h6></li>
-                    <li><h6><b>Project Timeline: </b><span class="text-primary mx-2" style="font-weight: 200;"> 9 months</span></h6></li>
-					<li><h6><b>Website Link: </b><span class="text-primary mx-2" style="font-weight: 200;"><a href="https://vertexpay.co/">https://www.vertexpay.co</a></span></h6></li>
-                </ul>
+            <div class="col-md-12 col-sm-12">
+                <div class="row skills">
+					<div class="col-md-6">
+						<ul class="p-0 list-none" style="list-style: none; padding: 0;">
+							<h5>Project Overview</h5>
+							<li><h6><b>Client:</b><span class="text-primary mx-2 fw-200" >Vertex Pay LTD</span></h6></li>
+							<li><h6><b>Industry:</b><span class="text-primary mx-2">Financial Industry</span></h6></li>
+							<li><h6><b>Role: </b><span class="text-primary mx-2">UI/UX and Frontend Web Development</span></h6></li>
+							<li><h6><b>Project Timeline: </b><span class="text-primary mx-2"> 9 months</span></h6></li>
+							<li><h6><b>Website Link: </b><span class="text-primary mx-2"><a href="https://vertexpay.co/">https://www.vertexpay.co</a></span></h6></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul style="list-style: none; padding: 0;">
+							<h5>Technical Skills Used</h5>
+							<li><img src="{{asset('assets/img/logo/html5.svg')}}" class="object-fit-contain w-24 h-24 mx-2" alt="html5"><h6 class="display-inline-block text-primary">HTML</h6></li>
+							<li><img src="{{asset('assets/img/logo/sass.svg')}}" class="object-fit-contain w-24 h-24 mx-2" alt="SASS"><h6 class="display-inline-block text-primary">SASS</h6></li>
+							<li><img src="{{asset('assets/img/logo/javascript.svg')}}" class="object-fit-contain w-24 h-24 mx-2" alt="JS"><h6 class="display-inline-block text-primary">JS</h6></li>
+							<li><img src="{{asset('assets/img/logo/github.svg')}}" class="object-fit-contain w-24 h-24 mx-2" alt="github"><a href="https://github.com/peruclarice/vertexPay"><h6 class="display-inline-block text-primary">Open Source Code</h6></a></li>
+						</ul>
+					</div>
+				</div>
             </div>
         </div>
     </div>
+
+	<!-- Intorductions -->
     <div class="py-5 mb-4">
         <h3>Project Introduction</h3>
 		<p>With the age of technology, users have integrated their lives into their technology, whether it may be through their online personas to online shopping etcetra, business have seen it fit to move into the online platform. Making physical commutes to business offices null and void. By creating an online precense in banking, it serves the need of the user readily.</p>
     </div>
+
+	<!--Problem -->
     <div class="py-5 mb-4">
         <h3>Our Problem</h3>
 		<p>The main problem that needed to be quenched, was the need to make banking services readily vailable to the user, without the unnecessary bulk of long ques and tired commutes to said offices. By bringing the bank to your phone/laptop, it aids the user.</p>
     </div>
 
+	<!-- Project Scope -->
 		<div class="project-scope py-5 mb-4">
 			<h3>Project Scope</h3>
 			<div>
@@ -196,33 +213,27 @@
 			</div>
 		</div>
     
-    <div class="py-5 mb-4">
+	<!-- Persona -->
+    {{-- <div class="py-5 mb-4">
         <h3>Persona</h3>
 		<h6>Creating a persona was viatle in the design and development stage. By having a specific audience in mind, it helped me as a developer to create a system tht would cater to the vast majority of possible users.</h6>
         <button class="btn btn-primary">Download Persona PDF <i class="fas fa-download ml-2"></i></button>
         <div class="row">
-            {{-- <div class="col-md-6">
-				<div class="white-bx-shadow">
-					<img src="{{asset('assets/img/portfolio/birch/persona.png')}}" alt="">
-				</div>
-            </div> --}}
             <div class="col-md-6">
-                {{-- <div class="white-bx-shadow">
-					<div class="persona"></div>
-				</div> --}}
 				<div class="p-4">
 					<img src="{{asset('assets/img/portfolio/persona.png')}}" alt="">
 				</div>
-                {{-- <button class="btn btn-secondary">Download Persona PDF <i class="fas fa-download ml-2"></i></button> --}}
             </div>
         </div>
-    </div>
+    </div> --}}
+
+	<!-- MVP -->
     <div class="py-5 mb-4">
         <h3>MVP (Minimal Viable Product)</h3>
 		<h6>Several Versions were created before finally settling on the most preffered option using A/B testing skills. <br>
 			The following images represent the MVP used to present to clients.
 		</h6>
-        <button class="btn btn-primary">Download MVP PDF <i class="fas fa-download ml-2" style="margin-left: .5rem;"></i></button>
+        {{-- <button class="btn btn-primary">Download MVP PDF <i class="fas fa-download ml-2" style="margin-left: .5rem;"></i></button> --}}
         <div class="row">
             {{-- <div class="persona" style="background-size: contain; min-height: 100vh;"></div> --}}
 			<div class="col-md-6">
@@ -239,377 +250,87 @@
 			</div>
         </div>
     </div>
-    <div class="py-5 mb-4">
-        <h3>Wireframing & Prototyping</h3>
+
+	<!-- Wireframing -->
+    {{-- <div class="py-5 mb-4">
+        <h3>Wireframing</h3>
 		<p>The following screens show my process as a UI/UX Designer in creating the system, from hand drawn sketches to Low Fidelity Mockups (wireframing) to High Fidelity Mockups (prototyping)</p>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="white-bx-shadow">
-					<embed src="{{asset('assets/img/portfolio/vertex-pay/VPAYNew Mockup Iteration 2.pdf')}}" type="application/pdf" width="100%" height="500px"/>
+				</div>
+			</div>
+		</div>
+    </div> --}}
+
+	<!-- Prototyping -->
+    {{-- <div class="py-5 mb-4">
+        <h3>Prototyping</h3>
+		<p>The following screens show my process as a UI/UX Designer in creating the system, from hand drawn sketches to Low Fidelity Mockups (wireframing) to High Fidelity Mockups (prototyping)</p>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="white-bx-shadow">
+				</div>
+			</div>
+		</div>
+    </div> --}}
+
+	<!-- Style Guide -->
+    <div class="py-5 mb-4">
+        <h3>Style Guide</h3>
+		<h6>The following is the guide I used to develop this particular system.</h6>
+		<div>
+			<div class="margin-bottom-2-p">
+				<h6><b>Color Palette</b></h6>
+				<p>60/30/10 Color Rule Theory</p>
+				<div class="margin-auto max-width-550">
+					<img src="{{asset('assets/img/portfolio/vertex-pay/style-guide/60-30-10.svg')}}" alt="color theory" class="w-100">
+				</div>
+			</div>
+			<div class="margin-bottom-2-p">
+				<h6><b>Typography</b></h6>
+				<p>Oswald Typeface</p>
+				<div class="margin-auto max-width-550">
+					<img src="{{asset('assets/img/portfolio/vertex-pay/style-guide/typography.svg')}}" alt="typography" class="w-100">
 				</div>
 			</div>
 		</div>
     </div>
+
+	<!-- Challenges -->
     <div class="py-5 mb-4">
-        <h3>Style Guide</h3>
-		<h6>The following is the guide I used to develop this particular system.</h6>
-        <button class="btn btn-primary">Download Style Guide PDF <i class="fas fa-download ml-2" style="margin-left: .5rem;"></i></button>
-        <div>
-            {{-- <div class="persona" style="min-height: 100vh;"></div> --}}
-            <div class="p-4" style="text-align: center;">
-				<img src="{{asset('assets/img/portfolio/style guide.png')}}" alt="" style="max-width: 450px; width: 100%;">
-			</div>
-        </div>
+        <h3>Challenges Faced On The Way</h3>
+		<h6>The following are the challenges I faced during the development process and lessons I learnt from them</h6>
+		<p>
+			The biggest challenge I faced when building this project was on coming up with the desired brand from the stakeholder. The first MVP iteration was not well appretiated from the stakeholders, mostly due to not having a thorough review on the wants and needs of this project by the stakeholder. 
+			<br>
+			Due to the challenge stated above, I needed to have a definite on the brand and style that the stakeholder required and carry out futher research on these styles and on looking at examples of websites that emulated this style. The second iteration of the MVP was highly satisfactory by the stakeholder.
+		</p>
     </div>
-    
+
+	<!-- Feedback -->
+    <div class="py-5 mb-4">
+        <h3>Feedback From Stakeholders</h3>
+		<h6>The following is the feeback I received concerning this prject</h6>
+		<div class="max-width-550 margin-auto margin-top-5-p text-center">
+			<p>
+				"Working with Clarice was a pleasure. She was incredibly creative in designing our website and exceeded our expectations. Clarice was fast and responsive to our feedback, implementing changes quickly and efficiently. She worked closely with us to ensure we were happy with the final product. We highly recommend Clarice to anyone looking for a talented and creative frontend developer."
+			</p>
+			<p>
+				<b>~ Matthew Wainaina</b>
+			</p>
+		</div>
+    </div>
+
+	<!-- Conclusion -->
+    <div class="py-5 mb-4">
+        <h3>Conclusion</h3>
+		<p>
+			In conclusion, I saw it fit to always have an extensive discussion with the stakeholder on their desires for the project, after which, a thorough lo-fidelity design should be created and reviewed until both sides accept the design. This would then help making the High-fidelity design at a much faster rate, hence cutting down development production
+		</p>
+    </div>
+
 </section>
-
-			<section id="portfolio-single-section">
-				<div class="portfolio-single-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
-                    <div class="text-center py-3 mb-2">
-                        <h3>All Screens</h3>
-						<p>These are the final screens that were used by the client.</p>
-                        <div>
-                
-                        </div>
-                    </div>
-
-					<!-- Begin portfolio single gallery 
-					==================================== 
-					* Use class "psi-zoom" to enable portfolio single image hover zoom effect.
-					* Use class "psi-colored" or "psi-multi-colored" to enable portfolio single image colored hover overlay.
-					* Use class "psi-dark" to enable portfolio single image dark hover overlay.
-					* Use class "psi-white" to enable portfolio single image white hover overlay.
-					-->
-					<div class="portfolio-single-gallery lightgallery psi-zoom psi-dark">
-
-						<!-- Begin isotope
-						===================
-						* Use class "gutter-1", "gutter-2", "gutter-3", "gutter-4", "gutter-5" or "gutter-6" to add more space between items.
-						* Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
-						-->
-						<div class="isotope col-4 gutter-3">
-
-							<!-- Begin isotope items wrap -->
-							<div class="isotope-items-wrap">
-
-								<!-- Grid sizer (do not remove!!!) -->
-								<div class="grid-sizer"></div>
-
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/vertex-pay/1.png" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/vertex-pay/thumb/1-thumb.png" data-sub-html="Yes, you can use image captions. :)">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/vertex-pay/1.png">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-2">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/vertex-pay/2.png" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/vertex-pay/1.png">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/vertex-pay/1.png">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image (Youtube or Vimeo link) -->
-									<figure class="portfolio-single-image-holder">
-										<a href="https://www.youtube.com/watch?v=xK5HkSpKLVA" class="ps-image-link lg-trigger">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-4.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-2">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-3.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-3.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-3.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-2.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-2.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-2.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-6.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-6.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-6.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-2">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-7.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-7.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-7.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-2">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-8.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-8.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-8.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-9.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-9.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-9.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-10.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-10.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-10.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-11.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-11.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-11.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-								<!-- ===================== 
-								/// Begin isotope item ///
-								========================== 
-								* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-								-->
-								<div class="isotope-item digital iso-height-1">
-
-									<!-- Begin portfolio single image -->
-									<figure class="portfolio-single-image-holder">
-										<a href="assets/img/portfolio/single/single-2/big/portfolio-single-12.jpg" class="ps-image-link lg-trigger" data-exthumbnail="assets/img/portfolio/single/single-2/thumb/portfolio-single-12.jpg">
-											<div class="portfolio-single-image bg-image lazy" data-src="assets/img/portfolio/single/single-2/portfolio-single-12.jpg">
-												<div class="ps-image-icon">
-													<span class="lnr lnr-eye"></span>
-												</div>
-											</div>
-										</a>
-									</figure>
-									<!-- End portfolio single image -->
-
-								</div>
-								<!-- End isotope item -->
-
-							</div>
-							<!-- End isotope items wrap -->
-
-
-							<!-- Begin tt-pagination 
-							========================= 
-							* Use class "tt-pagin-center" or "tt-pagin-right" to align pagination 
-							* Use class "tt-pagin-rounded" to enable pagination rounded style -->
-							<!-- <div class="tt-pagination-wrap">
-								<ul class="tt-pagination">
-									<li><a href="" title="Go to the first page">First</a></li>
-									<li><a href="" title="Go to the previous page">Prev</a></li>
-									<li class="active"><a href="#0">1</a></li>
-									<li><a href="">2</a></li>
-									<li><a href="">3</a></li>
-									<li><span>...</span></li>
-									<li><a href="">6</a></li>
-									<li><a href="">7</a></li>
-									<li><a href="">8</a></li>
-									<li><a href="" title="Go to the next page">Next</a></li>
-									<li><a href="" title="Go to the last page">Last</a></li>
-								</ul>
-
-								<div class="tt-pagination-info">
-									<span>Showing page 1 of 8</span>
-									<span>Portfolios 1-15 of 114</span>
-								</div>
-							</div> -->
-							<!-- End tt-pagination -->
-
-
-							<!-- Begin isotope pagination (Note: "Load More" button is for design purposes only!)
-							============================== -->
-							<!-- <div class="iso-load-more-wrap">
-								<div class="iso-load-more">
-									<button class="iso-load-more-button">Load More</button>
-								</div>
-							</div> -->
-							<!-- End isotope pagination -->
-
-						</div>
-						<!-- End isotope -->
-
-					</div>
-					<!-- End portfolio single gallery -->
-
-				</div> <!-- /.portfolio-single-inner -->
-			</section>
-			<!-- End portfolio single section -->
 
 <!-- =========================================
 			///// Begin portfolio single nav section /////
@@ -676,7 +397,7 @@
 			==============================
 			* Use class "ss-right" to enable right align.
 			-->
-			<div class="sticky-share ss-right">
+			<div class="sticky-share ss-right" style="display:none;">
 				<div class="sticky-share-button">
 					<span class="ss-icon"><i class="fas fa-share-alt"></i></span>
 					<span class="ss-close"><i class="fas fa-times"></i></span>

@@ -44,7 +44,7 @@
 
 <!-- Libs and Plugins CSS -->
 <link rel="stylesheet" href="assets/vendor/animsition/css/animsition.min.css"> <!-- Animsition CSS (http://git.blivesta.com/animsition/) -->
-<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css"> <!-- Font Icons CSS (https://fontawesome.com) Free version! -->
+{{-- <link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome-all.min.css">  --}}
 <link rel="stylesheet" href="assets/vendor/linearicons/style.css"> <!-- Linearicons CSS (https://linearicons.com) -->
 <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css"> <!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
 <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default.min.css"> <!-- Owl Carousel CSS (http://www.owlcarousel.owlgraphic.com) -->
@@ -59,6 +59,9 @@
 {{-- Custom css --}}
 <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+<!-- Fontawesome kit -->
+<script src="https://kit.fontawesome.com/686a2e2af8.js" crossorigin="anonymous"></script>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -28,7 +28,8 @@
 15. Borders classes
 16. Paddings classes
 17. Margin classes
-18. Bootstrap responsive columns of same height
+18. Img classes
+19. Bootstrap responsive columns of same height
 */
 
 
@@ -155,6 +156,10 @@
 	background-attachment: fixed
 }
 
+.bg-light {
+	background-color: #f6f6f6 !important;
+}
+
 
 /* ------------------------------------------------------------- *
  *  Font classes
@@ -245,6 +250,18 @@
 .font-size-155 { font-size: 155px !important; }
 .font-size-160 { font-size: 160px !important; }
 
+.fs-1-em { font-size: 1em; }
+.fs-2-em { font-size: 1.1em; }
+.fs-3-em { font-size: 1.2em; }
+.fs-4-em { font-size: 1.3em; }
+.fs-5-em { font-size: 1.4em; }
+.fs-6-em { font-size: 1.5em; }
+.fs-7-em { font-size: 1.6em; }
+.fs-8-em { font-size: 1.7em; }
+.fs-9-em { font-size: 1.8em; }
+.fs-10-em { font-size: 1.9em; }
+.fs-11-em { font-size: 2em; }
+
 
 /* ------------------------------------------------------------- *
  *  Hover classes
@@ -269,6 +286,12 @@
 
 /* Width auto */
 .width-auto { width: auto !important; }
+
+.w-24 {	width: 24px; }
+.w-30 {	width: 30px; }
+.w-50 { width: 50% }
+.w-75 { width: 75% }
+.w-100 { width: 100% }
 
 /* Full width */
 .full-width { width: 100% !important; }
@@ -364,6 +387,13 @@
 	width: 100%;
 	height: 100%;
  }
+
+.h-24 {	height: 24px; }
+.h-30 {	height: 30px; }
+.h-50 { height: 50% }
+.h-75 { height: 75% }
+.h-100 { height: 100% }
+
 .full-height-vh { min-height: 100vh !important; }
 .height-vh-5 { min-height: 5vh !important; }
 .height-vh-10 { min-height: 10vh !important; }
@@ -1371,6 +1401,10 @@
 .no-margin-bottom { margin-bottom: 0 !important; }
 .no-margin-left { margin-left: 0 !important; }
 .no-margin-right { margin-right: 0 !important; }
+
+
+.object-fit-contain { object-fit: contain; }
+.object-fit-cover { object-fit: cover; }
 
 
 /* ------------------------------------------------------------------------------------------------------------------------- *

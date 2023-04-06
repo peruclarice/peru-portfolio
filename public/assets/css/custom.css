@@ -1,10 +1,24 @@
 :root {
     --primary-color: #0040d8;
-    --vertex-red: rgb(230, 62, 47);
-    --vertex-red-light: rgb(230, 62, 47,.5);
     --dark-skin: #b06c49;
     --dark-skin-neck: #774932;
     --dark-hair: #41251b;
+
+    /* Case Study Colors */
+    --vertex-red: rgb(230, 62, 47);
+    --vertex-red-light: rgb(230, 62, 47,.5);
+    --nolla: #678ef0;
+    --nolla-linear-gradient: linear-gradient(140.99deg, #2F7DF2 22.43%, #655CDF 98.5%);
+    --pym-color-1: rgba(36, 125, 242, 1);
+    --pym-color-2: rgba(69, 206, 187, 1);
+    --pym-linear-gradient: linear-gradient(208.3deg, #247DF2 3.58%, #45CEBB 122.6%);
+    --pym-background: rgba(18, 18, 18, 1);
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em !important;
+    width: .75em !important;
 }
 .m-0 {
     margin: 0!important;
@@ -363,18 +377,22 @@
     background-position: center;
 }
 .case-study-img-1 {
-    max-width: 420px;
-    float: right;
-    margin: auto;
+    margin: auto auto 2em;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .case-study-img-1 img{
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .case-study-grid {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    gap: 56px;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
 }
 .tt-ol-menu-list .tt-ol-sub-menu li{
     display: block;
@@ -465,6 +483,12 @@ svg {
 .text-primary {
     color: #0040d8;
 }
+.pym-brand-text {
+    background: -webkit-linear-gradient(#eee, #333);
+    background: var(--pym-linear-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .h4, .h5, .h6, h4, h5, h6 {
     margin-top: 0;
@@ -483,10 +507,29 @@ h6 {
 .ph-anim-element-blue {
     border: 15rem solid var(--primary-color);
 }
+.ph-anim-element-purple {
+    border: 15rem solid var(--nolla);
+}
+.ph-anim-element-green {
+    border: 15rem solid var(--pym-color-2);
+}
+.ph-anim-element-blue-green {
+    border: 15rem solid var(--pym-color-1);
+}
 
 .vertex-cs .zig-zag-separator span {
     border-color: var(--vertex-red);
 }
+.nolla-brand .zig-zag-separator span {
+    border-color: var(--nolla);
+}
+.pym-brand .zig-zag-separator span {
+    border-color: var(--pym-color-2);
+}
+.pym-text {
+
+}
+
 .flx-basis {
     flex-wrap: wrap;
 }
@@ -575,4 +618,28 @@ h6 {
     background: linear-gradient(135deg, #6397fd 15%, #1863F4);
     top: -100px;
     left: -200px;
-  }
+}
+#footer.footer-dark {
+    overflow: hidden;
+    color: #fff;
+}
+#footer.footer-dark ul.f-block-links > li > a {
+    color: inherit;
+}
+.footer-bottom {
+    margin-top: 0;
+    height: 64px;
+    line-height: 64px;
+    padding: 0;
+}
+
+.numbered-circle {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+}

@@ -5,8 +5,9 @@
 			* Use classes "intro-xs", "intro-sm", "intro-lg" "intro-xlg" or "intro-full" to set intro size.
 			* Use class "intro-full-m" to set intro size for small screens only.
 			--> --}}
-			<section id="tt-intro" class="intro-full intro-full-m" style="background-image: url(assets/img/pattern/transparent/pt-transparent-6.png);">
-				<div class="tt-intro-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
+			
+			<section id="tt-intro" class="intro-full" style="background-image: url(assets/img/pattern/transparent/pt-transparent-6.png);">
+				<div class="tt-intro-inner tt-wrap"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
 
 					<div class="owl-carousel bg-dark" data-items="1" data-dots="false">
 
@@ -18,7 +19,7 @@
 							=======================
 							* Use class "parallax-1" up to "parallax-8" to enable image parallax effect (number 1-8 represents the speed).
 							-->
-							<div class="intro-image-wrap parallax-6">
+							<div class="intro-image-wrap parallax-8">
 								<div class="intro-image bg-dark bg-image" style="background: #060646;">
 									
 									<!-- Element cover 
@@ -40,7 +41,7 @@
 							* Use class "parallax-1" up to "parallax-6" to enable parallax effect (no effect on mobile devices!).
 							* Use class "fade-out-scroll-1" up to "fade-out-scroll-6" to enable fade out effect if page scrolls (no effect on mobile devices!).
 							-->
-							<div class="intro-caption-wrap caption-animate intro-caption-sm center parallax-4">
+							<div class="intro-caption-wrap caption-animate intro-caption-sm center parallax-4 fade-out-scroll-4">
 								<div class="intro-caption-holder">
 								
 									<div class="intro-caption row center flx-c landing-rw">
@@ -51,24 +52,27 @@
 										<div class="circle-3 circle-animation-top-bottom"></div>
 									</div>
                                         <div class="col-md-6">
-                                            <h1 class="intro-title">Hey,<br> I'm Clarice <span class="peru-cta">@include('svg.logo-white')</span></h1>
-                                            <h2 class="intro-subtitle">A UI/UX Web and Frontend Developer</h2>
+											<div class="landing-cta-content">
+												<h1 class="intro-title">Hey,<br> I'm Clarice <span class="peru-cta">@include('svg.logo-white')</span></h1>
+												<h2 class="intro-subtitle">A UI/UX Web and Frontend Developer</h2>
 
-										<!-- Begin intro description (recommended max 170 characters!) 
-										============================= -->
-										<div class="intro-description" style="text-shadow: none;">
-											Check out my case studies to have an in depth look at my design and development concepts.
-										</div>
-										 <!-- <div class="intro-description" style="text-shadow: none;">
-											I am UX developer with a heart for social justice and women empowerment. My 2 years of experience in developing websites for multiple NGOs and Social justice start-ups has offered me a platform I did not know I needed. To progress my UX design skills while attending to my need to speak out for social injustices all over the county. From the need to empower girls in the field of Technology to the re-branding of online businesses in order to increase their users tenfold, my projects have been used to emulate some of these passions. Passions that are near and dear to my heart.
-										</div>  -->
-										<!-- End intro-description -->
-                                        <div class="intro-buttons">
-                                            <a href="mailto:claricekibii@gmail.com" class="btn btn-primary margin-top-5 margin-right-10" target="_blank"><i class="fas fa-envelope-open mr-2"></i>Lets Get in Touch</a> 
-                                            <a href="{{asset('assets/img/CLARICE_PERU_UX_RESUME.pdf')}}" download>
-												<button class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</button>
-											</a>
-                                        </div>
+												<!-- Begin intro description (recommended max 170 characters!) 
+												============================= -->
+												<div class="intro-description" style="text-shadow: none;">
+													Check out my case studies to have an in depth look at my design and development concepts.
+												</div>
+												<!-- <div class="intro-description" style="text-shadow: none;">
+													I am UX developer with a heart for social justice and women empowerment. My 2 years of experience in developing websites for multiple NGOs and Social justice start-ups has offered me a platform I did not know I needed. To progress my UX design skills while attending to my need to speak out for social injustices all over the county. From the need to empower girls in the field of Technology to the re-branding of online businesses in order to increase their users tenfold, my projects have been used to emulate some of these passions. Passions that are near and dear to my heart.
+												</div>  -->
+												<!-- End intro-description -->
+												<div class="intro-buttons">
+													<a href="mailto:claricekibii@gmail.com" class="btn btn-primary margin-top-5 margin-right-10" target="_blank"><i class="fas fa-envelope-open mr-2"></i>Lets Get in Touch</a> 
+													<a href="{{asset('assets/CLARICE_PERU_UI_UX_RESUME.pdf')}}" download>
+														<button class="btn btn-white-bordered margin-top-5"><i class="fas fa-file-download mr-2"></i> Download My Resume</button>
+													</a>
+												</div>
+											</div>
+                                            
                                         </div>
                                         <div class="col-md-6">
                                             <div class="landing-peru-container">
@@ -150,152 +154,143 @@
 					</div> <!-- /.tt-heading-inner -->
 				</div>
 				<!-- End tt-heading -->
-                <div class="case-study-container case-study-grid">
+				<div class="case-study-container case-study-grid">
 
-				<div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c" style="align-items: center;">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1">
-									<div class="w-100 h-100">
-										@include('svg.nolla-cta')
+						<!-- Nolla Bank -->
+						<div style="padding: 2rem 1rem;">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="case-study-img-1">
+										<div class="w-100 h-100">
+											@include('svg.nolla-cta')
+										</div>
 									</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Designing a Mobile Digital Banking Platform</h3>
-                                    <h6>Nolla Bank</h6>
-                                    <p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
-                                    <a href="{{asset('assets/img/portfolio/nolla/website landing page.pdf')}}" download>
-										<button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</button>
-									</a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
+								</div>
+								<div class="col-md-12">
+									<div>
+										<h3>Designing a Mobile Digital Banking Platform</h3>
+										<h6>Nolla Bank</h6>
+										<p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
+										{{-- <a href="{{asset('assets/img/portfolio/nolla/website landing page.pdf')}}" download>
+											<button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</button>
+										</a> --}}
+										<a href="{{route('case-study.nolla-bank')}}" class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</a>
+									</div>
+								</div>
+							</div>
+					</div>
 
-				<div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c" style="align-items: center;">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1" style="height:600px;">
+					<!-- PYM -->
+					<div style="padding: 2rem 1rem;">
+						<div class="row flx flx-c" style="align-items: center;">
+							<div class="col-md-12">
+								<div class="case-study-img-1">
+									{{-- <img src="{{asset('assets/img/portfolio/pym/wallpaper.png')}}" alt="" class="w-100 h-100 object-fit-contain"> --}}
 									<div class="w-100 h-100">
 										@include('svg.pym-cta')
 									</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Designing a Health Tech Mobile Platform</h3>
-                                    <h6>Plan Your Meds</h6>
-                                    <p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
-                                    <!-- <a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Nolla Bank Case Study</button></a> -->
-                                </div>
-                            </div>
-                        </div>
-                </div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div>
+									<h3>Designing a Health Tech Mobile Platform</h3>
+									<h6>Plan Your Meds</h6>
+									<p>Designing a mobile application from conceptualizing to handoff. The designs included a Brand manual, logo designs, lo-fi and hi-fi wireframing and prototyping</p>
+									<a class="btn btn-primary" href="{{route('case-study.plan-your-meds')}}"><i class="fas fa-eye mr-3"></i>Plan Your Meds Case Study</a>
+								</div>
+							</div>
+						</div>
+					</div>
 
-                    <div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1">
-                                    <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-1.png')}}" alt=""> 
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Building a Digital Banking System</h3>
-                                    <h6>Creating a digital banking system</h6>
-                                    <p>A Fully Integrated Banking System, All At The Palm Of Your Hands. With Just One Click And You Are In.</p>
-                                    <a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Vertex Pay Case Study</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1">
+					<!-- Vertex Pay -->
+					<div style="padding: 2rem 1rem;">
+						<div class="row flx flx-c">
+							<div class="col-md-12">
+								<div class="case-study-img-1">
+									<img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-1.png')}}" alt=""> 
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div>
+									<h3>Building a Digital Banking System</h3>
+									<h6>Creating a digital banking system</h6>
+									<p>A Fully Integrated Banking System, All At The Palm Of Your Hands. With Just One Click And You Are In.</p>
+									<a href="/case-study-vertexpay"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Vertex Pay Case Study</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- QXP -->
+					<div style="padding: 2rem 1rem;">
+						<div class="row flx flx-c">
+							<div class="col-md-12">
+								<div class="case-study-img-1">
 								<img src="{{asset('assets/img/portfolio/QXP/portfolio-list-2.png')}}" alt=""> 
-                                    <!-- <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-2.png')}}" alt="">  -->
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Creating a Learning Management System</h3>
-                                    <h6>Connect, Collaborate & Learn</h6>
-                                    <p>Qxp maximizes productivity through reliable tools -tailor-made for meeting and learning,anytime, anywhere, Across any device.</p>
-                                    <a href="/case-study-qxp"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>QXP Case Study</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1">
-                                    <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-3.png')}}" alt=""> 
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Rebranding a Digital Branding Agency</h3>
-                                    <h6>Working on this Case Study</h6>
-                                    <p>Rebranding a digital branding agency </p>
-                                    <a href="/case-study-birch"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Birch Agency Case Study</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+									{{-- <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-2.png')}}" alt="">   --}}
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div>
+									<h3>Creating a Learning Management System</h3>
+									<h6>Connect, Collaborate & Learn</h6>
+									<p>Qxp maximizes productivity through reliable tools -tailor-made for meeting and learning,anytime, anywhere, Across any device.</p>
+									<a href="/case-study-qxp"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>QXP Case Study</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
 
-                    {{-- <div style="padding: 2rem 1rem;">
-                        <div class="row flx flx-c">
-                            <div class="col-md-6">
-                                <div class="case-study-img-1">
-                                    <img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-4.png')}}" alt=""> 
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h3>Designing my own portfolio</h3>
-                                    <h6>Lorem ipsum dolor sit amet consectetur.</h6>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit harum assumenda ex sint consectetur nam nobis quia.</p>
-                                    <a href="#"><button class="btn btn-primary">View Case Study</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
+					<!-- IPHero -->
+					<div style="padding: 2rem 1rem;">
+						<div class="row flx flx-c">
+							<div class="col-md-12">
+								<div class="case-study-img-1">
+									<img src="{{asset('assets/img/portfolio/myiphero/iphero_dash_with_url_third.svg')}}" alt=""> 
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div>
+									<h3>Building IP Protection For The Creative Economy</h3>
+									<h6>We Protect While You Create</h6>
+									<p>Rebranding a digital branding agency </p>
+									{{-- <a href="/case-study-birch"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>IPHero Case Study</button></a> --}}
+								</div>
+							</div>
+						</div>
+					</div>
 
-                </div>
+					<!-- Birch -->
+					<div style="padding: 2rem 1rem;">
+						<div class="row flx flx-c">
+							<div class="col-md-12">
+								<div class="case-study-img-1">
+									<img src="{{asset('assets/img/portfolio/list/list-1/portfolio-list-3.png')}}" alt=""> 
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div>
+									<h3>Rebranding a Digital Branding Agency</h3>
+									<h6>Working on this Case Study</h6>
+									<p>Rebranding a digital branding agency </p>
+									{{-- <a href="/case-study-birch"><button class="btn btn-primary"><i class="fas fa-eye mr-3"></i>Birch Agency Case Study</button></a> --}}
+								</div>
+							</div>
+						</div>
+					</div>
 
-				<div class="portfolio-list-inner isotope-wrap" style="display: none;"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
+				</div>
+
+
+				<div class="portfolio-list-inner isotope-wrap" style="display: none"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
 					
-					<!-- Begin isotope
-					===================
-					* Use class "gutter-1", "gutter-2", "gutter-3", "gutter-4", "gutter-5" or "gutter-6" to add more space between items.
-					* Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
-					-->
 					<div class="isotope col-4">
 
-						<!-- Begin isotope items wrap 
-						==============================
-						* Use class "pli-alter-1", "pli-alter-2", "pli-alter-3", "pli-alter-4" or "pli-alter-5" to change portfolio list item style. Note: style "pli-alter-4" is no effect on small screens (for better user experience)!
-						* Use class "pli-dark" to enable dark hover overlay (effect only with default hover overlay and "pli-alter-4", "pli-alter-5" classes!).
-						* Use class "pli-colored" or "pli-multi-colored" to enable colored hover overlay (effect only with default hover overlay and "pli-alter-4", "pli-alter-5" classes!).
-						* Use class "pli-frame" to enable image frames.
-						-->
 						<div class="isotope-items-wrap pli-colored pli-alter-4">
 
 							<!-- Grid sizer (do not remove!!!) -->
 							<div class="grid-sizer"></div>
 
-
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item digital iso-height-1">
 
 								<!-- Begin portfolio list item -->
@@ -333,11 +328,6 @@
 							</div>
 							<!-- End isotope item -->
 
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item print iso-height-1">
 
 								<!-- Begin portfolio list item -->
@@ -375,11 +365,6 @@
 							</div>
 							<!-- End isotope item -->
 
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item branding iso-height-1">
 
 								<!-- Begin portfolio list item -->
@@ -417,11 +402,6 @@
 							</div>
 							<!-- End isotope item -->
 
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item digital iso-height-2">
 
 								<!-- Begin portfolio list item -->
@@ -459,11 +439,6 @@
 							</div>
 							<!-- End isotope item -->
 
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item motion iso-height-1">
 
 								<!-- Begin portfolio list item -->
@@ -501,11 +476,6 @@
 							</div>
 							<!-- End isotope item -->
 
-							<!-- ===================== 
-							/// Begin isotope item ///
-							========================== 
-							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
-							-->
 							<div class="isotope-item branding digital iso-height-1">
 
 								<!-- Begin portfolio list item -->

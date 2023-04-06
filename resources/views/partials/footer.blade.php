@@ -6,17 +6,17 @@
                     <div class="f-block-logo m-0">
                         <!-- logo images for big screens -->
                         <a href="index.html" class="logo-dark">
-                            {{-- <img src="assets/img/logo.svg" alt="logo"> --}}
-                            <div style="max-width: 180px;">@include('svg.logo-white')</div>
+                            <img src="assets/img/logo/logo_dark.svg" alt="logo">
+                            {{-- <div style="max-width: 180px;">@include('svg.logo-white')</div> --}}
                         </a>
                         <a href="index.html" class="logo-light">
-                            {{-- <img src="assets/img/logo-white.svg" alt="logo"> --}}
-                            <div style="max-width: 180px;">@include('svg.logo-white')</div>
+                            <img src="assets/img/logo/logo_white.svg" alt="logo">
+                            {{-- <div style="max-width: 180px;">@include('svg.logo-white')</div> --}}
                         </a>
 
                         <!-- logo images for smaller screens -->
-                        <a href="index.html" class="logo-dark-m"><img src="assets/img/favicon.svg" alt="logo"></a>
-                        <a href="index.html" class="logo-light-m"><img src="assets/img/favicon.svg" alt="logo"></a>
+                        <a href="index.html" class="logo-dark-m"><img src="assets/img/logo/logo_dark.svg" alt="logo"></a>
+                        <a href="index.html" class="logo-light-m"><img src="assets/img/logo/logo_white.svg" alt="logo"></a>
                     </div>
                 </div>
             </div>

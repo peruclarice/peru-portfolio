@@ -25,6 +25,32 @@
     .landing-rw {
         flex-direction: column-reverse;
     }
+    .landing-peru-container {
+        display: none;
+    }
+    .landing-cta-content {
+        text-align: center;
+    }
+    .case-study-img-1 {
+        float: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .circle-container .circle-2 {
+        width: 200px;
+        height: 300px;
+        bottom: 0;
+        right: -50px;
+    }
+    .circle-container .circle-3 {
+        width: 200px;
+        height: 300px;
+        top: -50px;
+        left: -50px;
+    }
+    .case-study-grid {
+        grid-template-columns: 1fr;
+    }
 }
 @media only screen and (max-width: 450px) {
     .landing-peru-img {

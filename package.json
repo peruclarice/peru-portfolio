@@ -9,6 +9,8 @@
         "prod": "npm run production",
         "production": "mix --production"
     },
+    "sass": "node_modules/.bin/node-sass resources/assets/sass/app.scss public/assets/css/app.css --output-style compressed",
+    
     "devDependencies": {
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",

@@ -16,16 +16,16 @@
 					<!-- logo images for big screens -->
 					<a href="/" class="logo-dark">
 						<!-- <img src="assets/img/logo.svg" alt="logo"> -->
-						<img src="assets/img/peru_logo.svg" alt="">
+						<img src="assets/img/logo/logo_dark.svg" alt="">
 					</a>
 					<a href="/" class="logo-light">
-						<img src="assets/img/logo.svg" alt="logo">
+						<img src="assets/img/logo/logo_white.svg" alt="logo">
 						<!-- <img src="assets/img/peru_logo.svg" alt="logo"> -->
 					</a>
 
 					<!-- logo images for smaller screens -->
-					<a href="/" class="logo-dark-m"><img src="assets/img/logo.svg" alt="logo"></a>
-					<a href="/" class="logo-light-m"><img src="assets/img/logo-white.svg" alt="logo"></a>
+					<a href="/" class="logo-dark-m"><img src="assets/img/logo/logo_dark.svg" alt="logo"></a>
+					<a href="/" class="logo-light-m"><img src="assets/img/logo/logo_white.svg" alt="logo"></a>
 				</div>
 				<!-- End logo -->
 
@@ -79,7 +79,7 @@
 							<div class="tt-ol-menu-nav">
 								<ul class="tt-ol-menu-list">
 									<li class="menu-item active"><a href="/">Home</a></li>
-									<li class="menu-item"><a href="about-me-2.html">About Me</a></li>
+									<li class="menu-item"><a href="{{Route('about-me')}}">About Me</a></li>
 									{{-- <li><a href="services.html">Services</a></li> --}}
 									{{-- <li><a href="portfolio-grid-1.html">Case Study</a></li> --}}
 									<li class="menu-item has-children">
