@@ -85,13 +85,12 @@
 									<li class="menu-item has-children">
 										<a href="#0">Case Studies...</a> 
 										<ul class="tt-ol-sub-menu">
-											<li><a href="/case-study-qxp">Learning Managment System</a></li>
-											<li><a href="/case-study-vertexpay">Digital Banking</a></li>
-											<li><a href="#">E-commerce Store</a></li>
-											<li><a href="#">Digital Branding Agency</a></li>
-											{{-- <li><a href="page-login-2.html">Login</a></li>
-											<li><a href="page-faq-sidebar-right.html">FAQ</a></li>
-											<li><a href="page-dummy-classic-sidebar-right.html">Dummy Page</a></li> --}}
+											<li><a href="{{route('case-study.plan-your-meds')}}">Health Tech Mobile App</a></li>
+											<li><a href="{{route('case-study.nolla-bank')}}">Digital Banking Mobile App</a></li>
+											<li><a href="{{route('case-study.qxp')}}">Learning Managment System Web App</a></li>
+											<li><a href="{{route('case-study.vertex-pay')}}">Digital Banking Web App</a></li>
+											{{-- <li><a href="#">E-commerce Store</a></li>
+											<li><a href="#">Digital Branding Agency</a></li> --}}
 										</ul>
 									</li>
 									{{-- <li><a href="blog-list-classic.html">Blog</a></li> --}}
@@ -112,12 +111,12 @@
 									<div class="social-buttons">
 										<ul>
 											<li><a href="https://www.linkedin.com/in/clarice-jeberur-283054169/" class="btn btn-white btn-link" target="_blank" title="Follow me on Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-											<li><a href="https://www.facebook.com/clarice.peru" class="btn btn-white btn-link" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="https://www.instagram.com/peruclarice/" class="btn btn-white btn-link" target="_blank" title="Follow me on Instagram"><i class="fab fa-instagram"></i></a></li>
-											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Dribbble"><i class="fab fa-dribbble"></i></a></li> --}}
+											{{-- <li><a href="https://www.facebook.com/clarice.peru" class="btn btn-white btn-link" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook-f"></i></a></li> --}}
+											<li><a href="https://www.instagram.com/clariceperu.designs/" class="btn btn-white btn-link" target="_blank" title="Follow me on Instagram @clariceperu.designs"><i class="fab fa-instagram"></i></a></li>
+											<li><a href="https://dribbble.com/peru_clarice" class="btn btn-white btn-link" target="_blank" title="Follow us on Dribbble"><i class="fab fa-dribbble"></i></a></li>
 											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Behance"><i class="fab fa-behance"></i></a></li> --}}
 											
-											{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i></a></li> --}}
+											<li><a href="https://youtu.be/RefiyCcj9cI" class="btn btn-white btn-link" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i></a></li>
 										</ul>
 									</div>
 									<!-- End social buttons -->
@@ -131,10 +130,8 @@
 								</div> <!-- /.col -->
 							</div> <!-- /.row -->
 						</div>
-						<!-- End overlay menu footer -->
 
 					</div>
-					<!-- End overlay menu inner -->
 
 					<!-- Begin overlay menu close button -->
 					<div class="tt-ol-menu-close">

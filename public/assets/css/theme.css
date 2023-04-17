@@ -13241,6 +13241,10 @@ body.tt-boxed .tt-wrap .tt-pagination-wrap {
 	line-height: 30px;
 	border: none !important;
 	border: none !important;
+	color: white;
+}
+.social-buttons .btn.btn-link:hover {
+	color: orange;
 }
 
 

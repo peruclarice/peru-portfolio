@@ -125,7 +125,7 @@
         <div class="row flx flex-wrap">
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/figma.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Figma</h6>
@@ -135,7 +135,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/adobe-xd.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">AdobeXD</h6>
@@ -145,7 +145,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/github.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Github</h6>
@@ -155,7 +155,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/html5.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">HTML5</h6>
@@ -165,7 +165,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/sass.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Sass</h6>
@@ -175,7 +175,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/javascript.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Javascript</h6>
@@ -185,7 +185,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/trello.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Trello</h6>
@@ -195,7 +195,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/zeplin-logo.png')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Zeplin</h6>
@@ -205,7 +205,7 @@
             </div>
 
             <div class="col-md-3 col-12">
-                <div class="max-width-100 mb-4" style="height: 60px;">
+                <div class="w-64 h-64 mb-4">
                     <img src="{{asset('assets/img/logo/zoom.svg')}}" alt="clients" class="w-100 h-100 object-fit-contain">
                 </div>
                 <h6 class="font-bold">Zoom</h6>
@@ -219,7 +219,7 @@
     </div>
 </section>
 
-<section>
+<section class="about-me">
     <div class="container" style="padding: 100px 0;">
         <div class="max-width-550 margin-auto margin-bottom-100 text-center">
             <h3 class="text-capitalize font-size-32">Things I am proud of</h3>
@@ -231,7 +231,7 @@
             </div>
         </div>
 
-        <div class="row flx-c margin-bottom-30 height-vh-75">
+        <div class="row flx-c margin-bottom-30 md-max-width-600 mb-5 flex-direction-column-reverse">
             <div class="col-md-6">
                 <h5 class="font-size-24">Peru Designs Community | 2022 - Present</h5>
                 <p>
@@ -239,13 +239,13 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="{{asset('assets/img/accomplishments/peru-designs-community.png')}}" alt="accomplishments" class="h-100 max-height-400 object-fit-contain">
+                <img src="{{asset('assets/img/accomplishments/peru-designs-community.png')}}" alt="accomplishments" class="h-100 object-fit-contain max-height-500 mb-5">
             </div>
         </div>
 
-        <div class="row flx-c margin-bottom-30 height-vh-75">
+        <div class="row flx-c margin-bottom-30 md-max-width-600 mb-5">
             <div class="col-md-6">
-                <img src="{{asset('assets/img/accomplishments/mest-community.png')}}" alt="accomplishments" class="h-100 max-height-400 object-fit-contain">
+                <img src="{{asset('assets/img/accomplishments/mest-community.png')}}" alt="accomplishments" class="h-100 object-fit-contain max-height-500 mb-5">
             </div>
             <div class="col-md-6">
                 <h5 class="font-size-24">MEST Africa Community | 2022-2023</h5>
@@ -255,7 +255,7 @@
             </div>
         </div>
 
-        <div class="row flx-c margin-bottom-30 height-vh-75">
+        <div class="row flx-c margin-bottom-30 md-max-width-600 mb-5 flex-direction-column-reverse">
             <div class="col-md-6">
                 <h5 class="font-size-24">Global Goals Model United Nation | 2019</h5>
                 <p>
@@ -263,13 +263,13 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="{{asset('assets/img/accomplishments/global-goals-mun.png')}}" alt="accomplishments" class="h-100 max-height-400 object-fit-contain">
+                <img src="{{asset('assets/img/accomplishments/global-goals-mun.png')}}" alt="accomplishments" class="h-100 object-fit-contain max-height-500 mb-5">
             </div>
         </div>
 
-        <div class="row flx-c margin-bottom-30 height-vh-75">
+        <div class="row flx-c margin-bottom-30 md-max-width-600 mb-5">
             <div class="col-md-6">
-                <img src="{{asset('assets/img/accomplishments/nairobi-hackathon.png')}}" alt="accomplishments" class="h-100 max-height-400 object-fit-contain">
+                <img src="{{asset('assets/img/accomplishments/nairobi-hackathon.png')}}" alt="accomplishments" class="h-100 object-fit-contain max-height-500 mb-5">
             </div>
             <div class="col-md-6">
                 <h5 class="font-size-24">Nairobi Hackathon | 2018</h5>
@@ -279,7 +279,7 @@
             </div>
         </div>
 
-        <div class="row flx-c margin-bottom-30 height-vh-75">
+        <div class="row flx-c margin-bottom-30 md-max-width-600 mb-5 flex-direction-column-reverse">
             <div class="col-md-6">
                 <h5 class="font-size-24">Girls Code KE | 2018</h5>
                 <p>
@@ -287,7 +287,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="{{asset('assets/img/accomplishments/girls-code-ke.png')}}" alt="accomplishments" class="h-100 max-height-400 object-fit-contain">
+                <img src="{{asset('assets/img/accomplishments/girls-code-ke.png')}}" alt="accomplishments" class="h-100 object-fit-contain max-height-500 mb-5">
             </div>
         </div>
 

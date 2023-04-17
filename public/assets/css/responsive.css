@@ -17,6 +17,14 @@
     } 
 }
 @media only screen and (max-width: 992px){
+    .flex-direction-column-reverse {
+        flex-direction: column-reverse;
+    }
+    .md-max-width-600 {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
     .case-study-container .row {
         max-width: 500px;
         text-align: center;
