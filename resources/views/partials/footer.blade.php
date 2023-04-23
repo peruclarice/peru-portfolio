@@ -2,6 +2,11 @@
     <div class="footer-container tt-wrap">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
+                
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
                 <div class="footer-block">
                     <div class="f-block-logo m-0">
                         <!-- logo images for big screens -->
@@ -19,9 +24,6 @@
                         <a href="index.html" class="logo-light-m"><img src="assets/img/logo/logo_white.svg" alt="logo"></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-12">
 
                 <!-- Begin footer block (links) -->
                 <div class="footer-block">
@@ -44,12 +46,23 @@
                 <div class="footer-block">
                     <h4 class="f-block-heading">Follow</h4>
                     <ul class="f-block-links">
-                        <li><a href="https://www.facebook.com/clarice.peru" target="_blank">Facebook</a></li>
-                        {{-- <li><a href="#" target="_blank">Twitter</a></li> --}}
-                        <li><a href="https://www.instagram.com/peruclarice/" target="_blank">Instagram</a></li>
-                        {{-- <li><a href="#" target="_blank">Behance</a></li> --}}
-                        {{-- <li><a href="#" target="_blank">Dribbble</a></li> --}}
+                        <li><a href="https://www.linkedin.com/in/clarice-jeberur-283054169/" class="btn btn-white btn-link" target="_blank" title="Follow me on Linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+						{{-- <li><a href="https://www.facebook.com/clarice.peru" class="btn btn-white btn-link" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook-f"></i></a></li> --}}
+						<li><a href="https://www.instagram.com/clariceperu.designs/" class="btn btn-white btn-link" target="_blank" title="Follow me on Instagram @clariceperu.designs"><i class="fab fa-instagram"></i> Instagram</a></li>
+						<li><a href="https://dribbble.com/peru_clarice" class="btn btn-white btn-link" target="_blank" title="Follow us on Dribbble"><i class="fab fa-dribbble"></i> Dribbble</a></li>
+						{{-- <li><a href="#" class="btn btn-white btn-link" target="_blank" title="Follow us on Behance"><i class="fab fa-behance"></i></a></li> --}}		
+						<li><a href="https://youtu.be/RefiyCcj9cI" class="btn btn-white btn-link" target="_blank" title="Follow us on Youtube"><i class="fab fa-youtube"></i> Youtube</a></li>
                     </ul>
+
+                </div>
+
+                <div class="footer-block">
+                    <h4 class="f-block-heading">News & Blogs</h4>
+                    <ul class="f-block-links">
+                        <li><a href="https://www.linkedin.com/posts/mestafrica_womenintechafrica-techandbeyond-mestclassof2024-activity-7048618030209130498-4MVz?utm_source=share&utm_medium=member_desktop" target="_blank">Joining the MEST community</a></li>
+                        {{-- <li><a href="#" target="_blank">Winning the Zindi Design Challenge</a></li> --}}
+                    </ul>
+                    
                 </div>
 
             </div>
@@ -60,8 +73,8 @@
                 <div class="footer-block">
                     <h4 class="f-block-heading">Contact</h4>
                     <div class="f-block-text">
-                        <p>Kilimani, <br> Nairobi, Kenya</p>
-                        <p>+254 714 739 030<br>
+                        <p>Nairobi, Kenya | Accra, Ghana</p>
+                        <p>+254 714 739 030 | +233 597 843 100<br>
                         <a href="mailto:claricekibii@gmail.com">claricekibii@gmail.com</a></p>
                     </div>
                 </div>

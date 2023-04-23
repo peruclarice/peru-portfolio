@@ -291,5 +291,14 @@
             </div>
         </div>
 
+        <div>
+            <div class="col-md-12 text-center">
+                <h3 class="card-title">News About Me</h3>
+                <div class="card-body">
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7048617862080401408" height="693" width="604" frameborder="0" allowfullscreen="" title="My MEST Journey In Confidence"></iframe>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
